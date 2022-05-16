@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIRF Rank Predictor</title>
+</head>
+<body bgcolor="#e5fff2">
+    <h1>Insert the data to calculate the NIRF Score</h1>
+    <form action="/sub" method="POST">
+
+    <h5>Enter Total sanctioned intake including UG and PG all years from last 3 years</h5>
+    <input type="number" name="Nt">
+    <h5>Enter total students enrolled in first year for the last three years</h5>
+    <input type="number" name="Ne">
+    <h5>"Enter total PHd students enrolled </h5>
+    <input type="number" name="Np">
+
+
+
+
+    <h5>Enter total faculty Count</h5>
+    <input type="integer" name="Faculty_total">
+    <h5>Enter total faculty Count with PHD</h5>
+    <input type="integer" name="Faculty_PhD">
+    <h5>Enter Faculty count who taught at least 2 semesters</h5>
+    <input type="integer" name="Faculty_two_sem">
+
+
+
+    <h5>Enter faculty count with experience upto 96 months</h5>
+    <input type="integer" name="Faculty_8">
+    <h5>Enter faculty count with experience upto  between 97 and 180 months</h5>
+    <input type="integer" name="Faculty_15">
+    <h5>Enter faculty count with experience more than 181 months</h5>
+    <input type="integer" name="Faculty_16">
+
+    <h5>Enter the previous year FRU score</h5>
+    <input type="integer" name="FRU">
+
+    <h5>Enter the previous year RP score</h5>
+    <input type="integer" name="RP">
+
+
+    <h5>Enter the First year inake for the previous three years</h5>
+    <input type="integer" name="First_intake">
+
+    <h5>Enter the First year admitted for the</h5>
+    <input type="integer" name="First_admit">
+
+    <h5>Enter the First year graduated</h5>
+    <input type="integer" name="First_graduate">
+    
+    <h5>Enter the First year student placed </h5>
+    <input type="integer" name="First_placed">
+    <h5>Enter the First year selected for higher studies</h5>
+    <input type="integer" name="First_higher">
+    
+    <h5>Enter the previous  year GMS value</h5>
+    <input type="integer" name="GMS">
+
+    <h5>Enter the previous  year GPHD value</h5>
+    <input type="integer" name="GPHD">
+
+    <h5>Enter the previous  year OI value</h5>
+    <input type="integer" name="OI">
+
+    <h5>Enter the previous  year PR value</h5>
+    <input type="integer" name="PR">
+
+
+
+
+
+
+
+
+
+    <!----  <h5>Enter the total students enrolled</h5>
+    <input type="integer" name=""><h5>Enter the total students enrolled</h5>
+    <input type="integer" name=""><h5>Enter the total students enrolled</h5>
+    <input type="integer" name=""><h5>Enter the total students enrolled</h5>
+    <input type="integer" name=""><h5>Enter the total students enrolled</h5>
+    <input type="integer" name=""><h5>Enter the total students enrolled</h5>
+    <input type="integer" name=""><h5>Enter the total students enrolled</h5>
+    <input type="integer" name=""><h5>Enter the total students enrolled</h5>
+    <input type="integer" name=""><h5>Enter the total students enrolled</h5>
+    <input type="integer" name="">   -->
+    <br><input type="submit"></form>
+</body>
+</html>
